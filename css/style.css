@@ -4,11 +4,7 @@ body {
       background-color: #f2e8dc;
       color: #2f2f2f;
     }
-h1 {
-      font-size: 2.5em;
-      text-align: center;
-      margin-top: 20px;
-    }
+
 
 footer {
       background-color: #e0d4c0;
@@ -17,3 +13,44 @@ footer {
       justify-content: space-between;
       align-items: center;
     }
+
+a {
+      color: #2f2f2f;
+      text-decoration: none;
+      transition: color 0.3s;
+      margin-left: 16%;
+      font-size: 20px;
+      font-weight: 600;
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      margin-top: 17%;
+    }
+
+a:hover {
+      color: #602927;
+      text-decoration-skip-ink: all;
+      text-decoration-color: #602927;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
+    }
+
+.caixa_inicial {
+      background-color: white;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px;
+    }
+
+header {
+    height: 30px;
+    width: 79%;
+    line-height: 20px;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
